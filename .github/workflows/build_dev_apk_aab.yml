@@ -3,7 +3,7 @@ name: Test_and_build_artifacts_on_develop
 on:
   push:
     branches:
-      - 'feature/integrate-ci-cd'
+      - 'develop'
 
 jobs:
   build_apk_aab:
@@ -15,8 +15,9 @@ jobs:
         with: {java-version: 18}
       - name: Build release APK and AAB after test
         run: |
-          ./gradlew assembleRelease
-          ./gradlew bundleRelease
+          ./gradlew testDebug
+          ./gradlew assembleDebug
+          ./gradlew bundleDebug
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
