@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "239527250276",
+    "project_id": "spotifyclone-1f4e6",
+    "storage_bucket": "spotifyclone-1f4e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239527250276:android:8e86debdf013a885bdd271",
+        "android_client_info": {
+          "package_name": "com.plcoding.spotifycloneyt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhCSalp133oJloFnTfb1aIQl_d-WCq2bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239527250276:android:2cf0215c29e9ee48bdd271",
+        "android_client_info": {
+          "package_name": "by.belchurch.main.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhCSalp133oJloFnTfb1aIQl_d-WCq2bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
