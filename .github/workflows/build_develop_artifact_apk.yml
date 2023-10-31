@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - 'develop'
+  pull_request:
+    branches:
+      - 'develop'
 
 jobs:
   build_apk_aab:
@@ -21,10 +24,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v2
         with:
-          name: app-release.apk
+          name: app-debug.apk
           path: app/build/outputs/apk/debug/app-release-unsigned.apk
-      - name: Upload AAB Bundle
-        uses: actions/upload-artifact@v2
-        with:
-          name: app-release.aab
-          path: app/build/outputs/bundle/debug/app-release.aab
